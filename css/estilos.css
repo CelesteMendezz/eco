@@ -5,7 +5,7 @@
 }
 
 header{
-  background-image: linear-gradient(to top, rgba(10, 104, 71, 0.441), rgba(0, 0, 0, 0.7)), url(imagenes/inicio.jpg);
+  background-image: linear-gradient(to top, rgba(10, 104, 71, 0.441), rgba(0, 0, 0, 0.7)), url(/imagenes/inicio.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
