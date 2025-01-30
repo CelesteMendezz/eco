@@ -1,0 +1,38 @@
+{
+    "name": "EcoTravel",
+    "short_name": "Eco",
+    "description": "Plataforma de viajes ecológicos",
+    "lang":"es-mx",
+    "display": "standalone", 
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "portrait",
+    "icons":[
+        {
+            "src": "./imagenes/ico1.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "./imagenes/ico2.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+  "screenshots": [
+    {
+      "src": "./imagenes/cap1.png",
+      "sizes": "544x466",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./imagenes/cap2.png",
+      "sizes": "408x730",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+    ],
+    "id":"/Galeria%20integrador/index.html",
+    "start_url": "/Galeria%20integrador/index.html"
+}

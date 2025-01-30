@@ -1,0 +1,116 @@
+* {
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: linear-gradient(to top, rgba(10, 104, 71, 0.441), rgba(0, 0, 0, 0.7)), url(/pagweb/imagenes/inicio.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: clamp(32px, 6vw, 90px); 
+  font-weight: 900;
+  text-align: center;
+  max-width: 90%;
+  white-space: normal;
+  overflow-wrap: break-word; 
+}
+
+.cabecera {
+  font-size: 26px;
+  font-weight: 500;
+  max-width: 800px;
+}
+
+.contenedor h2 {
+  color: rgb(11, 49, 38);
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.contenedor h3 {
+  color: #464646;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.contenedor p {
+  font-size: 18px;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) { 
+  header h1 {
+    font-size: 40px; 
+  }
+  .cabecera {
+    font-size: 18px;
+    max-width: 90%;
+  }
+}
+
+.navbar{
+  background-color: #0A6847;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.navbar .navbar-brand {
+  color: #F3CA52; 
+  font-size: 30px; 
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none; 
+}
+.navbar-brand:hover{
+  color: white; 
+  text-decoration: none;
+}
+
+.navbar .nav-link {
+  font-size: 1rem;
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover{
+  color:#F3CA52;
+}
+
+.btn{
+background-color: #0A6847;
+color:white;
+font-size: 15px;
+padding: 8px;
+margin-bottom: 5px;
+margin-right: 15px;
+}
+.btn:hover{
+  background-color: #F3CA52;
+  color:black;
+  font-size: 15px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
